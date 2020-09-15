@@ -1,0 +1,16 @@
+name: plasmabio-template-r
+# channels priority
+# see https://bioconda.github.io/
+# conda-forge has highest prioriy
+channels:
+  - defaults
+  - bioconda
+  - conda-forge
+dependencies:
+  - jupyterlab=2
+  - nbresuse
+  - nodejs
+  - r-irkernel
+  - r-base>=3.6
+  - r-tidyverse
+

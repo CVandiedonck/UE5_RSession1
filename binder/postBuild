@@ -1,0 +1,21 @@
+jupyter labextension install \
+  jupyterlab-topbar-extension \
+  jupyterlab-system-monitor \
+  jupyterlab-topbar-text
+
+# Install R package
+# if not available as conda package
+R -e "install.packages('diagram', repos='http://cran.rstudio.com/')"
+
+# Install R/Bioconductor package
+# if not available as conda package
+
+# First install Bioconductor package manager
+# https://bioconductor.org/install/
+R -e "install.packages('BiocManager', repos='http://cran.rstudio.com/')"
+R -e "BiocManager::install()"
+
+# Then install required packages
+# Biostrings: Efficient manipulation of biological strings
+# https://bioconductor.org/packages/release/bioc/html/Biostrings.html
+R -e "BiocManager::install('Biostrings')"
