@@ -1,6 +1,7 @@
-# Template materials in R
+# Objective
 
-Example repository to create an environment with course materials in R.
+This repository contains the practical material to use on PlasmaBio for the fisrst session of my R lectures to the master students of the magistère européen de génétique at Université de Paris. 
+The theme of this course is the R envoronment, main R objetcs and particularly vectors.
 
 ## Try it on Binder
 
@@ -32,5 +33,3 @@ For more information, see the [extensive rep2docker documentation](https://repo2
 Materials can be added anywhere to this repository, either at the top level or in subdirectory.
 
 When building the environment, the materials (and any other file) will be copied to the Docker image.
-
-In this example, there is already a test notebook (`example-notebook.ipynb`) and a test R script (`example-script.R`).
